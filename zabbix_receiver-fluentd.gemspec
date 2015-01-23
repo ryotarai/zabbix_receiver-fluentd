@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "fluent-logger"
-  spec.add_dependency "zabbix_receiver", "~> 0.0.2"
+  spec.add_dependency "zabbix_receiver", "~> 0.0.3"
   spec.add_dependency "slop"
 
   spec.add_development_dependency "bundler", "~> 1.7"
