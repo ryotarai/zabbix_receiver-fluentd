@@ -1,26 +1,33 @@
-# ZabbixReceiver::Fluentd
-
-TODO: Write a gem description
+# zabbix_receiver-fluentd
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
 ```ruby
-gem 'zabbix_receiver-fluentd'
+gem install zabbix_receiver-fluentd
 ```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install zabbix_receiver-fluentd
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+$ zabbix_receiver fluentd --help
+Using fluentd output.
+usage: zabbix_receiver [options]
+    --help
+    --daemonize
+    --log
+    --pid-path
+    --workers
+    --bind
+    --port
+    --proxy-to-host
+    --proxy-to-port
+    --log-level
+    --fluentd-host        Hostname of fluentd
+    --fluentd-port        Port of fluentd
+    --fluentd-tag-prefix  Tag prefix
+$ zabbix_receiver fluentd
+I, [2015-01-23T15:33:50.703189 #89821]  INFO -- : Listening on 0.0.0.0:10051...
+```
 
 ## Contributing
 
